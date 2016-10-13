@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+
+    <!-- Meta-Information -->
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Thi Le's Portfolio</title>
+    <meta content="Thi Le's Design and Development Portfolio" name="description">
+    <meta content="portfolio,resume,frontend,developer,web,designer" name="keywords">
+    <link href="favicon.ico" rel="shortcut icon">
+
+    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800" rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+    <!-- The Thi Le CSS Styles -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <base href="/">
+
+</head>
+<body ng-app="theThiLe">
+
+<!-- Our Website Content Goes Here -->
+<div ng-include src="'templates/header.html'"></div>
+<div ng-view></div>
+<div ng-include src="'templates/footer.html'"></div>
+
+<!-- Vendor: Javascripts -->
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https:////ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+
+<!-- The Thi Le Javascripts -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
